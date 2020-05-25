@@ -1,0 +1,13 @@
+MicroDI.UnitTests/bin/
+MicroDI.UnitTests/obj/
+MicroDI/obj/
+packages/
+MicroDI/bin/
+.vs/
+*.nupkg
+MicroDI/Library/
+MicroDI/Temp/
+MicroDI/UserSettings/
+MicroDI/Assets/MicroDI.Helpers/package-lock.json.meta
+MicroDI/Assets/MicroDI.Helpers/package-lock.json
+MicroDI/Logs/

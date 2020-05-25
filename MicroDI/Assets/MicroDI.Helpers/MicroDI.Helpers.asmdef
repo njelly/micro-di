@@ -1,0 +1,14 @@
+{
+    "name": "MicroDI.Helpers",
+    "references": [
+        "GUID:d9020f6d8231a85488958667b98acf1c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

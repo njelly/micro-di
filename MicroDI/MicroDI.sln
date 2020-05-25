@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroDI", "MicroDI.csproj", "{C50BB858-FD69-40B9-990C-1200634528E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroDI.Helpers", "MicroDI.Helpers.csproj", "{DAAE361C-B3D9-780D-EFD1-9B9D4B22FF01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests.csproj", "{8FA458F2-C299-7E7C-C0A7-9C16BB5086E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C50BB858-FD69-40B9-990C-1200634528E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50BB858-FD69-40B9-990C-1200634528E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50BB858-FD69-40B9-990C-1200634528E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50BB858-FD69-40B9-990C-1200634528E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAAE361C-B3D9-780D-EFD1-9B9D4B22FF01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAE361C-B3D9-780D-EFD1-9B9D4B22FF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAE361C-B3D9-780D-EFD1-9B9D4B22FF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAE361C-B3D9-780D-EFD1-9B9D4B22FF01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA458F2-C299-7E7C-C0A7-9C16BB5086E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA458F2-C299-7E7C-C0A7-9C16BB5086E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA458F2-C299-7E7C-C0A7-9C16BB5086E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA458F2-C299-7E7C-C0A7-9C16BB5086E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+name: publish
+on:
+  push:
+    branches:
+      - master
+jobs:
+  publish-npm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          lfs: true
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: sh publish.sh
+        env:
+          NPM_USERNAME: ${{secrets.NPM_USERNAME}}
+          NPM_PASSWORD: ${{secrets.NPM_PASSWORD}}
+
+        

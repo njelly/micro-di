@@ -1,0 +1,15 @@
+{
+  "name": "com.redgames.micro-di-helpers",
+  "displayName": "RED.MicroDI.Helpers",
+  "author": "RED Games",
+  "description": "Various helper services and factories for Unity development with MicroDI.",
+  "homepage": "https://github.com/redgamesco/micro-di",
+  "version": "1.2.0",
+  "unity": "2019.3",
+  "publishConfig": {
+    "registry": "http://feed.redgames.studio/"
+  },
+  "dependencies": {
+    "com.redgames.micro-di" : "1.0.1"
+  }
+}
