@@ -1,0 +1,12 @@
+publish:
+  image: node:latest
+  tags:
+    - docker
+  when: manual
+  variables:
+    PACKAGE_PATH: "./MicroDI/Assets/MicroDI"
+  script:
+    - cd $PACKAGE_PATH
+    - npm config set registry https://gitlab.redgames.studio/api/v4/projects/$CI_PROJECT_ID/packages/npm/
+    - npm config set '//gitlab.redgames.studio/api/v4/projects/${CI_PROJECT_ID}/packages/npm/:_authToken' "${CI_JOB_TOKEN}"
+    - npm publish
