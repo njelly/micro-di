@@ -1,5 +1,5 @@
 {
-  "name": "@core-technology/micro-di",
+  "name": "com.redgames.micro-di",
   "displayName": "RED.MicroDI",
   "author": "RED Games",
   "description": "A lightweight dependency injection framework for Unity.",
